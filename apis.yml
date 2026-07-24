@@ -1,8 +1,25 @@
 aid: bionic-panda-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bionic-panda-games.png
 name: Bionic Panda Games
-description: Bionic Panda Games is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bionic Panda Games was a cross-platform mobile social games company founded in March 2010
+  by Charles Hudson (CEO) and Mike Jimenez (CTO), headquartered in San Francisco, California. The studio
+  focused on Android-first social and casual titles, shipping Aqua Pets (a fishing and aquarium simulation
+  that reached several million downloads and a top-100 grossing spot on Android), Vacation Slots, and
+  PicAPic Camera. It raised seed funding from SoftTech VC, Norwest Venture Partners, Google Ventures,
+  500 Startups, and angel investors before ceasing operations. It is tracked in the API Evangelist network
+  as a 500 Global portfolio company; the studio published no public developer API, so this profile carries
+  identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/bionic-panda-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Social Games
+- Android
+- Casual Games
+- Video Games
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bionic-panda-games-domain-security.yml
 - type: Website
   url: https://bionicpandagames.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
